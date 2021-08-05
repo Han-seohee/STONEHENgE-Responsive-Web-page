@@ -1,4 +1,3 @@
-
 $(function(){
 
   $(window).resize(function(){
@@ -15,7 +14,7 @@ $(function(){
       $('.gnb').on('mouseout', function(){
         $('.sub-menu, .sub-bg').stop().hide();
       });
-    }//1024
+    }
   });
   
   $(window).trigger('resize');
@@ -33,8 +32,7 @@ $(function(){
     $(this).siblings('.sub-menu').slideToggle();
   });
 
-  //외부영역 클릭시 팝업메뉴 닫기
-  //has() - 특정요소를 가지고 있는 요소를 선택하는 메서드
+  //닫기 버튼 클릭시 팝업메뉴 닫기
   menuArea.mouseup(function(e){
     console.log(menuArea.has(e.target).length);
     console.log(menuArea.has(e.target));
@@ -50,3 +48,4 @@ $(function(){
 
 
 });//로딩함수 끝
+

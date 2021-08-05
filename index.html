@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <title>STONEHENgE</title>
@@ -25,7 +25,7 @@
     <meta property="twitter:url" content="https://stonehenge.co.kr/">
 
     <!-- 폰트 -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400;500&family=Playfair+Display:ital,wght@1,500&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <!-- xeicon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
     <!-- Swiper CSS -->
@@ -34,12 +34,10 @@
     <link rel="shortcut icon" href="images/favicon.png">
     <!--reset-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-    <!-- 인덱스 외부 스타일시트 -->
+    <!-- 외부 스타일시트 -->
     <link rel="stylesheet" href="css/main.css">
-    <!-- 태블릿 외부 스타일 시트 -->
-    <link rel="stylesheet" href="css/indexTablet.css">
-    <!-- 모바일 외부 스타일 시트 -->
-    <link rel="stylesheet" href="css/indexMobile.css">
+    <link rel="stylesheet" media="(max-width: 1024px)" href="css/main_medium.css">
+    <link rel="stylesheet" media="(max-width: 768px)" href="css/main_small.css">
     <!-- Swiper Js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
 
@@ -75,8 +73,16 @@
 
     <!-- NAV -->
     <nav>
+        <i class="xi-close close-btn"></i>
         <ul class="gnb">
-            <!-- 메뉴 1 -->
+            <li class="medium-search">
+                <form>
+                    <i class="xi-search"></i>
+                    <input type="text">
+                </form>
+            </li>
+            <li><i class="xi-home-o"></i></li>
+
             <li>
                 <a href="#">BRAND</a>
                 <ul class="sub-menu">
@@ -87,7 +93,7 @@
                     <li><a href="#">EDITORIAL</a></li>
                 </ul>
             </li>
-            <!-- 메뉴 2 -->
+
             <li>
                 <a href="#">COLLECTION</a>
                 <ul class="sub-menu">
@@ -98,7 +104,7 @@
                     <li><a href="#">WATCH</a></li>
                 </ul>
             </li>
-            <!-- 메뉴 3 -->
+
             <li>
                 <a href="#">ITEM</a>
                 <ul class="sub-menu">
@@ -111,7 +117,7 @@
                     <li><a href="#">WATCH</a></li>
                 </ul>
             </li>
-            <!-- 메뉴 4 -->
+
             <li>
                 <a href="#">ISSUE</a>
                 <ul class="sub-menu">
@@ -120,12 +126,12 @@
                     <li><a href="#">NEWS</a></li>
                 </ul>
             </li>
-            <!-- 메뉴 5 -->
+
             <li>
                 <a href="#">STORE</a>
             </li>
         </ul>
-        <!-- 서브메뉴 배경 -->
+
         <div class="sub-bg"></div>
     </nav>
 

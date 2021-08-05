@@ -1,6 +1,6 @@
 /* COMMON */
 .body__container {
-    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Roboto','Gothic A1', 'sans-serif';
     font-size: 16px;
     font-weight: 400;
     color: #2a2a2a;
@@ -80,7 +80,6 @@ header .right ul li {
     margin: 0 10px;
 }
 #toggle-btn {
-    display: none;
     text-indent: -9999px;
 }
 
@@ -90,10 +89,19 @@ nav {
     border-bottom: 1px solid #ccc;
     box-sizing: border-box;
 }
+nav .close-btn {
+    display: none;
+}
 .gnb {
     height: 50px;
     display: flex;
     justify-content: center;
+}
+.gnb .medium-search {
+    display: none;
+}
+.gnb .xi-home-o {
+    display: none;
 }
 .gnb > li {
     height: 50px;
@@ -187,6 +195,7 @@ span.swiper-pagination-bullet {
 }
 .section--contents .love-knot__big .big-description {
     padding: 24px 0 40px;
+    line-height: 1.5;
 }
 .section--contents .love-knot__small li {
     padding-top: 40px;
@@ -211,7 +220,7 @@ span.swiper-pagination-bullet {
     font-size: 32px;
 }
 .section--contents .more li .more--text {
-    padding: 16px 0 24px;
+    padding: 16px 10px 24px;
 }
 
 /* SERVICE */
@@ -331,6 +340,7 @@ footer{
 footer .inner {
     max-width: 980px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 .footer-top{
     display: flex;
@@ -360,65 +370,7 @@ footer p {
     font-weight: lighter;
     color: #fff;
     text-align: center;
+    line-height: 1.5;
     padding: 56px 0 56px;
 }
 
-/* MEDIA */
-@media (max-width: 1024px) {
-    header.section .inner {
-        max-width: none;
-        height: auto;
-        padding: 0 20px;
-    }
-    .logo-area .logo {
-        margin: 0 auto;
-    }
-    header .toggle {
-        display: none;
-    }
-    #toggle-btn {
-        background-image: url(../images/toggle-btn.png);
-        width: 18px;
-        height: 24px;
-        position: absolute;
-        top: 56px;
-        left: 60px;
-        cursor: pointer;
-        text-indent: -9999px;
-    }
-    nav {
-        width: 60%;
-        height: 100vh;
-        background-color: #fff;
-        /* border: none; */
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 999;
-        display: none;
-    }
-    .gnb {
-        width: 100%;
-        height: 100%;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-    }
-    .gnb > li {
-        width: 100%;
-        height: auto;
-        border-bottom: 1px solid #e5e5e5;
-        text-align: left;
-    }
-    .gnb > li a {
-        padding-left: 20px;
-    }
-    .sub-menu {
-        z-index: 9999;
-        padding: 10px 0px;
-    }
-    .sub-menu > li a {
-        color: #767676;
-    }
-
-}
