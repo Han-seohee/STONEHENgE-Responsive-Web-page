@@ -25,4 +25,4 @@
 
 ## 4. Responsive menu
 :mag_right: 메뉴 버튼 터치시 반응형 메뉴가 나타나고 닫기 버튼 터치시 사라지도록 구현했습니다.
-<img src="https://user-images.githubusercontent.com/86407453/128623150-4c990548-30de-4625-916d-216bd5f2d1bc.png">
+<img src="https://user-images.githubusercontent.com/86407453/128623291-2ed1ee5b-3dae-4eff-9412-28dec06b0413.png">
