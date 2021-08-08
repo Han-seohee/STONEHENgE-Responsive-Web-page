@@ -1,5 +1,5 @@
 # STONEHENgE Responsive Web page
-스톤헨지 리디자인 반응형 웹 코딩
+주얼리 브랜드 '스톤헨지'의 사이트를 리 디자인한 반응형 웹페이지
 
 ## 1. Main Page
 :computer: 사이트 접속시 메인 페이지 화면 입니다.
